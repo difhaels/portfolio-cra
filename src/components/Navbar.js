@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import egirl from "./img/e-girl.jpg";
+
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between">
