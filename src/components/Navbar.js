@@ -4,9 +4,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between">
       <div>
-        <span className="text-2xl font-bold flex items-center bg-backgroundColor px-7 py-2 rounded-full text-white gap-3 hover:bg-violet-300">
-          <img src={egirl} alt="jpg" width="60" className=" rounded-full" /> Difhaels
-        </span>
+        <span className="text-2xl font-bold flex items-center bg-backgroundColor px-7 py-2 rounded-full text-white gap-3 hover:bg-violet-300">Difhaels</span>
       </div>
       <div className="flex items-center">
         <Link to="/" className="text-lg mx-4 hover:text-hoverColor1">
