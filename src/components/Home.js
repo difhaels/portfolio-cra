@@ -18,7 +18,7 @@ export default function Home() {
       <div className="relative w-full lg:w-1/2">
         <div className="absolute left-[340px] w-72 border-[3px] border-slate-900">
           <div className="border-2 border-slate-100 ">
-            <h1 className="px-5 py-2 text-center  text-xl font-bold bg-gradient-to-r from-backgroundColor to-indigo-800 text-white">Welcome to my profile</h1>
+            <h1 className="px-5 py-2 text-center  text-xl font-bold bg-gradient-to-r from-primary to-indigo-800 text-white">Welcome to my profile</h1>
           </div>
         </div>
         <h1 className="mt-16 text-right text-4xl font-bold">Hi, I'm Agung Saputra</h1>
