@@ -2,9 +2,9 @@ import hero from "./img/hero.png";
 
 export default function Home() {
   return (
-    <div className="container flex flex-wrap mt-40">
+    <div className="container lg:flex flex-wrap mt-40">
       <div className="relative w-full lg:w-1/2">
-        <img src={hero} alt="rem" className="mx-auto w-[650px]" />
+        <img src={hero} alt="rem" className="mx-auto lg:w-[650px] w-[550px]" />
         <span className="absolute -bottom-[90px] left-[370px] -z-10 -translate-x-1/2">
           <svg width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path
