@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className="px-5 py-2 text-center  text-xl font-bold bg-gradient-to-r from-primary to-indigo-800 text-white">Welcome to my profile</h1>
           </div>
         </div>
-        <h1 className="mt-4 lg:text-right text-4xl font-bold">Hi, I'm Agung Saputra</h1>
+        <h1 className="mt-4 lg:mt-24 lg:text-right text-4xl font-bold">Hi, I'm Agung Saputra</h1>
         <h1 className="mt-4 lg:absolute text-lg left-[150px] lg:w-[480px] lg:text-right mb-10 lg:mb-0">
           I am a semester 1 student from Indonesia. I am interested in programming, especially fullstack developer. My daily life is studying and playing games.
         </h1>

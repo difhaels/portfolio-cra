@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="mt-[150px] bg-slate-900">
+    <div className="lg:mt-[150px] mt-10 bg-slate-900">
       <span className="flex items-center justify-center text-slate-50 text-2xl font-bold pt-28">Hope we can be friend!</span>
       <div className="flex items-center justify-center pt-8">
         <a
