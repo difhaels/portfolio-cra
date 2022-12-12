@@ -16,7 +16,7 @@ export default function Skill() {
       <div className="pt-14 flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 ">
           <div className="flex items-center ">
-            <img src={html} width="60" className="mr-2" />
+            <img src={html} alt="html" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[95%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -27,7 +27,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={css} width="60" className="mr-2" />
+            <img src={css} alt="css" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[90%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -38,7 +38,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={javascript} width="60" className="mr-2" />
+            <img src={javascript} alt="javascript" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[30%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -51,7 +51,7 @@ export default function Skill() {
       <div className="pt-10 flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 ">
           <div className="flex items-center">
-            <img src={bootstrap} width="60" className="mr-2" />
+            <img src={bootstrap} alt="bootstrap" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[40%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -62,7 +62,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={tailwindcss} width="60" className="mr-2" />
+            <img src={tailwindcss} alt="tailwindcss" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[90%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -73,7 +73,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={react} width="60" className="mr-2" />
+            <img src={react} alt="react" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[10%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -86,7 +86,7 @@ export default function Skill() {
       <div className="pt-10 flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={vscode} width="60" className="mr-2" />
+            <img src={vscode} alt="vscode" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[80%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -97,7 +97,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={git} width="60" className="mr-2" />
+            <img src={git} alt="git" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[20%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -108,7 +108,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500">
           <div className="flex items-center">
-            <img src={github} width="60" className="mr-2" />
+            <img src={github} alt="github" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[45%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
