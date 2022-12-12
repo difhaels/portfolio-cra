@@ -4,7 +4,9 @@ export default function Navbar() {
   return (
     <nav className="container flex items-center justify-between">
       <div>
-        <span className="text-2xl font-bold flex items-center bg-primary px-7 py-2 rounded-full text-white gap-3 hover:bg-violet-300">Difhaels</span>
+        <a href="https://wa.me/+62895337305533" target="_blank" rel="noreferrer" className="text-2xl font-bold flex items-center bg-primary px-7 py-2 rounded-full text-white gap-3 hover:bg-violet-300">
+          Difhaels
+        </a>
       </div>
       <div className="flex items-center">
         <Link to="/" className="text-lg mx-4 hover:text-hoverColor1">
