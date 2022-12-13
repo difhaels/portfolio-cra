@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="mt-5 ">
       <Navbar />
-      <Routes>
+      <Routes basename="/19-portfolio-reactjs-tailwind">
         <Route path="/" element={<Home />} />
         <Route path="Skill" element={<Skill />} />
         <Route path="Project" element={<Project />} />
