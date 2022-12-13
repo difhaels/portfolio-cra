@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="container lg:flex items-center justify-between ">
-      <div className="w-36 flex justify-between">
+    <nav className="w-full lg:flex items-center justify-between py-5 top-0 mx-auto">
+      <div className=" flex  justify-center lg:pl-32 pt-3">
         <a href="https://wa.me/+62895337305533" target="_blank" rel="noreferrer" className="text-2xl font-bold flex justify-center items-center bg-primary px-7 py-2 rounded-full text-white gap-3 hover:bg-violet-300">
           Difhaels
         </a>
@@ -55,7 +55,7 @@ export default function Navbar() {
           </a>
         </div>
       </div>
-      <div className="flex items-center justify-center pt-3 lg:pt-0">
+      <div className="flex items-center justify-center pt-3 lg:pt-0 pr-0 lg:pr-32">
         <Link to="/" className="text-lg mx-4 hover:text-hoverColor1">
           Home
         </Link>
@@ -116,3 +116,15 @@ export default function Navbar() {
     </nav>
   );
 }
+
+// navbar fixed
+
+window.onscroll = function () {
+  const nav = document.querySelector("nav");
+  const fixedNav = nav.offsetTop;
+  if (window.pageYOffset > fixedNav) {
+    nav.classList.add("navbar-fixed");
+  } else {
+    nav.classList.remove("navbar-fixed");
+  }
+};
