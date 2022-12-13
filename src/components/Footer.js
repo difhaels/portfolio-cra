@@ -4,7 +4,7 @@ import kayoko from "./img/kayoko.png";
 export default function Footer() {
   return (
     <div className="lg:mt-[150px] mt-10 bg-slate-900 relative">
-      <img src={kayoko} className="h-[350px] absolute left-0 bottom-0 hidden lg:flex" />
+      <img src={kayoko} className="h-[200px] lg:h-[350px] absolute left-0 bottom-0  lg:flex" />
       <img src={hina} className="h-[300px] absolute right-0 bottom-0 hidden lg:flex" />
       <span className="flex items-center justify-center text-slate-50 text-2xl font-bold pt-28">Hope we can be friend!</span>
       <div className="flex items-center justify-center pt-8">
