@@ -1,4 +1,4 @@
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Skill from "./components/Skill";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="mt-5 ">
       <Navbar />
-      <Routes basename="/19-portfolio-reactjs-tailwind">
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Skill" element={<Skill />} />
         <Route path="Project" element={<Project />} />
