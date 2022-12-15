@@ -16,7 +16,9 @@ export default function Skill() {
       <div className="pt-14 lg:flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center ">
-            <img src={html} alt="html" width="60" className="mr-2" />
+            <a href="https://en.wikipedia.org/wiki/HTML">
+              <img src={html} alt="html" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[95%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -27,7 +29,9 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={css} alt="css" width="60" className="mr-2" />
+            <a href="https://www.w3schools.com/css/css_intro.asp">
+              <img src={css} alt="css" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[90%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -38,6 +42,7 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
+            <a href="https://www.javascript.com/"></a>
             <img src={javascript} alt="javascript" width="60" className="mr-2" />
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[30%] h-[9px] rounded-full group-hover:bg-red-500"></div>
@@ -52,7 +57,9 @@ export default function Skill() {
       <div className="lg:pt-8 lg:flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={bootstrap} alt="bootstrap" width="60" className="mr-2" />
+            <a href="https://getbootstrap.com/">
+              <img src={bootstrap} alt="bootstrap" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[40%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -63,7 +70,9 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={tailwindcss} alt="tailwindcss" width="60" className="mr-2" />
+            <a href="https://tailwindcss.com/">
+              <img src={tailwindcss} alt="tailwindcss" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[90%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -74,7 +83,9 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={react} alt="react" width="60" className="mr-2" />
+            <a href="https://reactjs.org/">
+              <img src={react} alt="react" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[10%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -88,7 +99,9 @@ export default function Skill() {
       <div className="lg:pt-8 lg:flex items-center justify-center gap-8">
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={vscode} alt="vscode" width="60" className="mr-2" />
+            <a href="https://code.visualstudio.com/">
+              <img src={vscode} alt="vscode" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[80%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -99,7 +112,9 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={git} alt="git" width="60" className="mr-2" />
+            <a href="https://git-scm.com/">
+              <img src={git} alt="git" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[20%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
@@ -110,7 +125,9 @@ export default function Skill() {
         </div>
         <div className="border-4 bg-purple-200 rounded-xl p-5 group hover:bg-purple-500 mb-5 lg:mb-0">
           <div className="flex items-center">
-            <img src={github} alt="github" width="60" className="mr-2" />
+            <a href="github.com">
+              <img src={github} alt="github" width="60" className="mr-2" />
+            </a>
             <div className="w-[200px] h-4 border-4 border-slate-600 flex items-center rounded-full">
               <div className="bg-primary w-[45%] h-[9px] rounded-full group-hover:bg-red-500"></div>
             </div>
