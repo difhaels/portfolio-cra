@@ -18,14 +18,6 @@ export default function App() {
         <Route path="Project" element={<Project />} />
       </Routes>
       <Footer />
-      <button
-        onClick={function hide() {
-          const home = document.querySelector("#home");
-          home.style.display = "none";
-        }}
-      >
-        edit
-      </button>
     </>
   );
 }
