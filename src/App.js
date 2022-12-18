@@ -5,18 +5,27 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className=" ">
+    <>
       <Navbar />
+      <div id="home">
+        <Home />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Skill" element={<Skill />} />
+        <Route path="SKill" element={<Skill />} />
         <Route path="Project" element={<Project />} />
       </Routes>
       <Footer />
-    </div>
+      <button
+        onClick={function hide() {
+          const home = document.querySelector("#home");
+          home.style.display = "none";
+        }}
+      >
+        edit
+      </button>
+    </>
   );
 }
-
-export default App;

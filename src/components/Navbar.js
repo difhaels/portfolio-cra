@@ -56,13 +56,34 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex items-center justify-center pt-3 lg:pt-0 pr-0 lg:pr-32">
-        <Link to="/" className="text-lg mx-4 hover:text-hoverColor1">
+        <Link
+          to="/"
+          className="text-lg mx-4 hover:text-hoverColor1"
+          onClick={function hide() {
+            const home = document.querySelector("#home");
+            home.style.display = "none";
+          }}
+        >
           Home
         </Link>
-        <Link to="/Skill" className="text-lg mx-4 hover:text-hoverColor1">
+        <Link
+          to="/Skill"
+          className="text-lg mx-4 hover:text-hoverColor1"
+          onClick={function hide() {
+            const home = document.querySelector("#home");
+            home.style.display = "none";
+          }}
+        >
           Skill
         </Link>
-        <Link to="/Project" className="text-lg mx-4 hover:text-hoverColor1">
+        <Link
+          to="/Project"
+          className="text-lg mx-4 hover:text-hoverColor1"
+          onClick={function hide() {
+            const home = document.querySelector("#home");
+            home.style.display = "none";
+          }}
+        >
           Project
         </Link>
         {/* For desktop */}
